@@ -24,14 +24,10 @@ An end-to-end machine learning system that detects fraudulent sellers and fake r
 
 ## Project Structure
 ```
-fake-seller-detection/
-├── data/               # Sample or anonymised dataset
-├── scripts/
-│   ├── preprocessing.R # Data cleaning & feature engineering
-│   ├── model_rf.R      # Random Forest training & evaluation
-│   └── model_xgb.R     # XGBoost training & evaluation
-├── visuals/            # ggplot2 fraud probability plots
-└── README.md
+│── app.R                # Main Shiny Application
+│── data/                # CSV Input Files
+│── visuals/             # Dashboard Screenshots
+│── README.md
 ```
 
 ## How to Run
